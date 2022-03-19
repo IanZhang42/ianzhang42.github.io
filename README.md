@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to my website
 
-You can use the [editor on GitHub](https://github.com/IanZhang42/ianzhang42.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My name is Ian Zhang and I am a first year student at the University of Toronto. I'm looking to graduate in 2025 with an Honours Bachelors of Science in Mathematical Applications in Finance and Economics as well as a Statistics specialist.
 
 ### Markdown
 
