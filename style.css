@@ -51,11 +51,9 @@ body {
 .hero-section {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 40px;
     background-color: #3a6fe2;
-    border-radius: 10px;
     margin: 20px auto;
     width: 90%;
 }
@@ -87,4 +85,79 @@ footer {
     padding: 15px;
     font-size: 0.9rem;
     margin-top: 20px;
+}
+
+
+/* About Page Styling */
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #e0e5f1;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.profile-photo img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 40px; /* Increase this value to add more space */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    color: #333;
+    padding-left: 50px; /* Optional: adjust as needed */
+}
+
+.about-text h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.location-map {
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.location-map img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #a0b892;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.social-links button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.social-links button:hover {
+    background-color: #555;
 }
