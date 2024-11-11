@@ -1,17 +1,22 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f3f4f6;
     color: #333;
 }
 
+/* Apply PT Sans to other specific elements, if desired */
+.header, .navbar, .hero-section, footer {
+    font-family: 'PT Sans', sans-serif;
+}
+
 /* Header */
 .header {
     background-color: #333;
     color: white;
-    padding: 15px 20px;
+    padding: 15px 50px;
     text-align: center;
     position: relative;
 }
