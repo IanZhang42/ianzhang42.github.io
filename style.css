@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0e5f1;
+    background-color: #f3f4f6;
     color: #333;
 }
 
@@ -11,7 +11,7 @@ body {
 .header {
     background-color: #333;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 20px;
     text-align: center;
     position: relative;
 }
@@ -27,13 +27,14 @@ body {
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 5px 10px;
 }
 
 .search-icon {
@@ -47,33 +48,38 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    background-color: #4a7bba;
+    padding: 30px;
+    background-color: #3a6fe2;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
 }
 
 .profile-photo {
     width: 200px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-right: 20px;
 }
 
 .intro-text h2 {
-    color: #333;
+    color: white;
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .intro-text p {
     font-size: 1rem;
-    color: #333;
+    color: white;
 }
 
 /* Footer */
 footer {
     background-color: #333;
-    color: white;
+    color: #c9c9c9;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     font-size: 0.9rem;
+    margin-top: 20px;
 }
