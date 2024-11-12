@@ -52,14 +52,14 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 40px;
+    padding: 70px;
     background-color: #3a6fe2;
     margin: 20px auto;
     width: 90%;
 }
 
 .profile-photo {
-    width: 200px;
+    width: 300px;
     height: auto;
     border-radius: 15px;
     margin-right: 20px;
@@ -87,13 +87,31 @@ footer {
     margin-top: 20px;
 }
 
+/* Blank Space Section */
+.blank-space {
+    width: 90%;
+    max-width: 1000px;
+    height: 300px; /* Adjust height as needed */
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888; /* Placeholder text color */
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
 
 /* About Page Styling */
 
 .about-content {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center; /* Aligns the image and text vertically centered */
     padding: 40px;
     background-color: #e0e5f1;
     margin: 20px auto;
@@ -104,13 +122,13 @@ footer {
     width: 250px;
     height: auto;
     border-radius: 10px;
-    margin-right: 40px; /* Increase this value to add more space */
+    margin-right: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-text {
+    max-width: 500px;
     color: #333;
-    padding-left: 50px; /* Optional: adjust as needed */
 }
 
 .about-text h3 {
@@ -160,4 +178,39 @@ footer {
 
 .social-links button:hover {
     background-color: #555;
+}
+
+
+/* CV Page Styling */
+.cv-content {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+    color: #333;
+}
+
+.cv-content h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.cv-content p {
+    margin: 8px 0;
+}
+
+.cv-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.cv-content a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.cv-content a:hover {
+    text-decoration: underline;
 }
