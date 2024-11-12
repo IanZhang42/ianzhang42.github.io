@@ -182,7 +182,8 @@ footer {
 
 /* CV Page Styling */
 .cv-content {
-    margin: 20px auto;
+    width: 90%
+    margin: 0 auto;
     padding: 40px; /* Adds padding to the left and right */
     line-height: 1.6;
     color: #333;
