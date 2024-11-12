@@ -108,13 +108,18 @@ footer {
 
 /* About Page Styling */
 
+.about-section {
+    display: flex;
+    justify-content: center; /* Center the entire section horizontally */
+    background-color: #c9daf8; /* Background color for the section */
+    padding: 20px 0; /* Adds padding above and below the section */
+}
+
 .about-content {
     display: flex;
-    flex-direction: row;
-    align-items: center; /* Aligns the image and text vertically centered */
-    padding: 40px;
-    background-color: #c9daf8;
-    margin: 20px auto;
+    align-items: center; 
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Limit the max width */
 }
 
 .profile-photo img {
@@ -181,14 +186,21 @@ footer {
 
 
 /* CV Page Styling */
-.cv-content {
-    width: 90%
-    margin: 0 auto;
-    padding: 40px; /* Adds padding to the left and right */
-    line-height: 1.6;
-    color: #333;
-    background-color: #c9daf8;
+
+.cv-section {
+    background-color: #c9daf8; /* Same color as the textbox */
+    padding: 20px 0; /* Add padding to create space around the section */
 }
+
+.cv-content {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c9daf8; /* Optional: keep this if you want a white textbox */
+    color: #333;
+}
+
 
 .cv-content h3 {
     font-size: 1.8rem;
