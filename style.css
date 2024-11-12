@@ -55,7 +55,6 @@ body {
     padding: 70px;
     background-color: #3a6fe2;
     margin: 20px auto;
-    width: 90%;
 }
 
 .profile-photo {
@@ -77,16 +76,6 @@ body {
     color: white;
 }
 
-/* Footer */
-footer {
-    background-color: #333;
-    color: #c9c9c9;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9rem;
-    margin-top: 20px;
-}
-
 /* Blank Space Section */
 .blank-space {
     width: 90%;
@@ -102,6 +91,16 @@ footer {
     color: #888; /* Placeholder text color */
     font-size: 1rem;
     font-style: italic;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #c9c9c9;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: 20px;
 }
 
 
@@ -190,6 +189,7 @@ footer {
 .cv-section {
     background-color: #c9daf8; /* Same color as the textbox */
     padding: 20px 0; /* Add padding to create space around the section */
+    margin-top: 20px;
 }
 
 .cv-content {
@@ -228,19 +228,20 @@ footer {
 }
 
 /* General Styles for Courses Page */
-.courses-page {
-    font-family: 'PT Sans', sans-serif;
-    color: #333;
+.course-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #c9daf8;
 }
 
 .course-list {
-    margin: 20px auto;
+    background-color: #c9daf8; /* Same background color */
     padding: 20px;
-    background-color: #c9daf8;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    line-height: 1.6;
 }
-
 .course-list h2 {
     font-size: 2rem;
     text-align: center;
