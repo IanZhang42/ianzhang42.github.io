@@ -217,13 +217,10 @@ footer {
 /* General Styles for Courses Page */
 .courses-page {
     font-family: 'PT Sans', sans-serif;
-    background-color: #e1eafc; /* Adjust as desired */
     color: #333;
 }
 
 .course-list {
-    width: 90%;
-    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #c9daf8;
