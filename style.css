@@ -14,38 +14,74 @@ body {
 
 /* Header */
 .header {
-    background-color: #333;
-    color: white;
-    padding: 130px 130px;
+    background-image: url('banner.png'); /* Replace with the path to your image */
+    background-size: cover; /* Ensures the image covers the whole area */
+    background-position: center; /* Centers the image */
+    color: black;
+    padding: 130px 130px; /* Reduced padding to account for navbar strip */
     text-align: center;
     position: relative;
+    padding-top: 100px; /* Ensures content starts below the navbar */
 }
 
+/* Style for "Ian Zhang" in the header */
+.header h1 {
+    font-size: 3rem; /* Increase the font size */
+    font-weight: bold;
+    color: white; /* Use white for strong contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a subtle shadow for depth */
+    background-color: rgba(27, 116, 184, 0.495); /* Semi-transparent background box */
+    padding: 10px 20px; /* Add padding to make the box more noticeable */
+    display: inline-block; /* Ensure the background only wraps around the text */
+    border-radius: 8px; /* Optional: round the corners for a softer look */
+}
+
+
+/* Logo */
 .logo {
     font-size: 2rem;
     font-weight: bold;
     position: absolute;
     top: 15px;
     left: 20px;
+    color: white; /* Make sure the logo is visible on the black background */
 }
 
+/* Navbar container */
+.navbar-container {
+    background-color: #333; /* Black background for the navbar strip */
+    width: 100%;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10; /* Places it above the header background */
+}
+
+/* Navbar */
 .navbar {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
+/* Hover effect for navbar links */
 .navbar a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 5px 10px;
+    transition: background-color 0.3s ease; /* Smooth transition */
 }
 
-.search-icon {
-    width: 20px;
-    vertical-align: middle;
+.navbar a:hover {
+    background-color: #444; /* Darker shade of grey for hover */
+    border-radius: 4px; /* Optional: round corners for a polished look */
 }
+
+
+
+
 
 /* Hero Section */
 .hero-section {
@@ -53,7 +89,7 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 70px;
-    background-color: #3a6fe2;
+    background-color: #9bbdf8;
     margin: 20px auto;
 }
 
@@ -65,7 +101,7 @@ body {
 }
 
 .intro-text h2 {
-    color: white;
+    color: black;
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 10px;
@@ -73,7 +109,7 @@ body {
 
 .intro-text p {
     font-size: 1rem;
-    color: white;
+    color: black;
 }
 
 /* Blank Space Section */
@@ -110,7 +146,7 @@ footer {
 .about-section {
     display: flex;
     justify-content: center; /* Center the entire section horizontally */
-    background-color: #c9daf8; /* Background color for the section */
+    background-color: #9bbdf8; /* Background color for the section */
     padding: 20px 0; /* Adds padding above and below the section */
     margin-top: 20px;
 }
@@ -188,7 +224,7 @@ footer {
 /* CV Page Styling */
 
 .cv-section {
-    background-color: #c9daf8; /* Same color as the textbox */
+    background-color: #9bbdf8; /* Same color as the textbox */
     padding: 20px 0; /* Add padding to create space around the section */
     margin-top: 20px;
 }
@@ -198,7 +234,7 @@ footer {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #c9daf8; /* Optional: keep this if you want a white textbox */
+    background-color: #9bbdf8; /* Optional: keep this if you want a white textbox */
     color: #333;
 }
 
@@ -233,11 +269,11 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    background-color: #c9daf8;
+    background-color: #9bbdf8;
 }
 
 .course-list {
-    background-color: #c9daf8; /* Same background color */
+    background-color: #9bbdf8; /* Same background color */
     padding: 20px;
     width: 90%;
     max-width: 800px;
@@ -274,15 +310,22 @@ footer {
     text-decoration: underline;
 }
 
+/* Style for notes page */
 
-.notes-page .notes-list {
-    background-color: #c9daf8; /* Light blue background */
+.notes-section {
+    background-color: #9bbdf8; /* Same color as the textbox */
+    padding: 20px 0; /* Add padding to create space around the section */
+    margin-top: 20px;
+}
+
+.notes-list {
+    width: 80%;
+    max-width: 350px;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 8px;
-    width: 90%;
-    max-width: 800px;
-    margin: 20px auto;
-    line-height: 1.6;
+    background-color: #9bbdf8; /* Optional: keep this if you want a white textbox */
+    color: #333;
+    text-align: left; /* Center-align content inside the notes list */
 }
 
 .notes-list h2, .notes-list h3 {
@@ -292,6 +335,7 @@ footer {
 .notes-list ul {
     list-style-type: none;
     padding-left: 0;
+    display: inline-block; /* Make the list inline to center it */
 }
 
 .notes-list ul li {
@@ -306,4 +350,5 @@ footer {
 .notes-list a:hover {
     text-decoration: underline;
 }
+
 
