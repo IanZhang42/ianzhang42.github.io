@@ -112,6 +112,7 @@ footer {
     justify-content: center; /* Center the entire section horizontally */
     background-color: #c9daf8; /* Background color for the section */
     padding: 20px 0; /* Adds padding above and below the section */
+    margin-top: 20px;
 }
 
 .about-content {
@@ -270,6 +271,39 @@ footer {
 }
 
 .course-list a:hover {
+    text-decoration: underline;
+}
+
+
+.notes-page .notes-list {
+    background-color: #c9daf8; /* Light blue background */
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+.notes-list h2, .notes-list h3 {
+    text-align: center;
+}
+
+.notes-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.notes-list ul li {
+    margin-bottom: 8px;
+}
+
+.notes-list a {
+    color: #003366; /* Link color */
+    text-decoration: none;
+}
+
+.notes-list a:hover {
     text-decoration: underline;
 }
 
