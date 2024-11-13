@@ -37,16 +37,6 @@ body {
 }
 
 
-/* Logo */
-.logo {
-    font-size: 2rem;
-    font-weight: bold;
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    color: white; /* Make sure the logo is visible on the black background */
-}
-
 /* Navbar container */
 .navbar-container {
     background-color: #333; /* Black background for the navbar strip */
@@ -59,24 +49,30 @@ body {
 }
 
 /* Navbar */
+/* Navigation Bar */
 .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Dark background for visibility */
+    padding: 15px 0;
     display: flex;
     justify-content: center;
     gap: 20px;
+    z-index: 1000; /* Ensure it's on top of other elements */
 }
 
-/* Hover effect for navbar links */
 .navbar a {
-    color: white;
+    color: white; /* To make links visible */
     text-decoration: none;
     font-weight: bold;
     padding: 5px 10px;
-    transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .navbar a:hover {
-    background-color: #444; /* Darker shade of grey for hover */
-    border-radius: 4px; /* Optional: round corners for a polished look */
+    background-color: #444; /* Darker shade on hover */
+    color: white;
+    border-radius: 5px;
 }
 
 
@@ -129,14 +125,23 @@ body {
     font-style: italic;
 }
 
-/* Footer */
+/* Footer Styles */
 footer {
-    background-color: #333;
-    color: #c9c9c9;
     text-align: center;
-    padding: 15px;
-    font-size: 0.9rem;
-    margin-top: 20px;
+    padding: 20px;
+    background-color: #333; /* or whatever background color you prefer */
+}
+
+footer a {
+    color: white; /* Makes the icons white */
+    font-size: 24px; /* Adjusts the icon size */
+    margin: 0 15px; /* Adds space between the icons */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+footer a:hover {
+    color: #bbb; /* Lighter shade on hover, adjust to your preference */
 }
 
 
