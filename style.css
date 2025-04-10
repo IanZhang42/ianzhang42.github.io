@@ -3,7 +3,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3f4f6;
+    background-color: #d6d1bb;
     color: #333;
 }
 
@@ -48,7 +48,6 @@ body {
     z-index: 10; /* Places it above the header background */
 }
 
-/* Navbar */
 /* Navigation Bar */
 .navbar {
     position: fixed;
@@ -77,16 +76,26 @@ body {
 
 
 
-
-
 /* Hero Section */
 .hero-section {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 70px;
-    background-color: #9bbdf8;
-    margin: 20px auto;
+    justify-content: center; /* Center the entire section horizontally */
+    background-color: #f1edd9; /* Background color for the section */
+    padding: 40px 0; /* Adds padding above and below the section */
+    margin-top: 20px;
+}
+
+.hero-content {
+    display: flex; /* Enable flexbox for side-by-side layout */
+    align-items: center; /* Vertically center the content */
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cfdfebd4; /* Background color for the content box */
+    color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    border-radius: 10px; /* Rounds the corners for a card effect */
 }
 
 .profile-photo {
@@ -108,21 +117,39 @@ body {
     color: black;
 }
 
-/* Blank Space Section */
-.blank-space {
+/* Announcement Section */
+.announcement-section {
     width: 90%;
-    max-width: 1000px;
-    height: 300px; /* Adjust height as needed */
-    background-color: white;
+    max-width: 800px;
     margin: 20px auto;
-    border-radius: 10px;
+    padding: 20px;
+    background-color: #cbdce1db; /* Match the color with other sections */
+    color: #333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #888; /* Placeholder text color */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.announcement-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.announcement-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.announcement-list li {
     font-size: 1rem;
-    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.announcement-list strong {
+    color: #1a73e8; /* Highlight the date in blue */
 }
 
 /* Footer Styles */
@@ -151,28 +178,38 @@ footer a:hover {
 .about-section {
     display: flex;
     justify-content: center; /* Center the entire section horizontally */
-    background-color: #9bbdf8; /* Background color for the section */
-    padding: 20px 0; /* Adds padding above and below the section */
+    background-color: #f1edd9; /* Background color for the section */
+    padding: 40px 0; /* Adds padding above and below the section */
     margin-top: 20px;
 }
 
 .about-content {
-    display: flex;
-    align-items: center; 
-    width: 80%; /* Adjust width as needed */
-    max-width: 800px; /* Limit the max width */
+    display: flex; /* Enable flexbox for side-by-side layout */
+    align-items: center; /* Vertically center the content */
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cfdfebd4; /* Background color for the content box */
+    color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    border-radius: 10px; /* Rounds the corners for a card effect */
+}
+
+.profile-photo {
+    flex-shrink: 0; /* Prevents the image from shrinking */
+    margin-right: 20px; /* Adds space between the image and text */
 }
 
 .profile-photo img {
-    width: 250px;
+    width: 250px; /* Set a fixed width for the image */
     height: auto;
-    border-radius: 10px;
-    margin-right: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow to the image */
 }
 
 .about-text {
-    max-width: 500px;
+    max-width: 500px; /* Limits the width of the text */
     color: #333;
 }
 
@@ -197,40 +234,19 @@ footer a:hover {
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px #f1edd9;
     margin-top: 10px;
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    background-color: #a0b892;
-    margin: 20px auto;
-    width: 90%;
-}
-
-.social-links button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.social-links button:hover {
-    background-color: #555;
-}
 
 
 /* CV Page Styling */
 
 .cv-section {
-    background-color: #9bbdf8; /* Same color as the textbox */
-    padding: 20px 0; /* Add padding to create space around the section */
+    display: flex;
+    justify-content: center; /* Center the entire section horizontally */
+    background-color: #f1edd9; /* Background color for the section */
+    padding: 40px 0; /* Adds padding above and below the section */
     margin-top: 20px;
 }
 
@@ -239,10 +255,11 @@ footer a:hover {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #9bbdf8; /* Optional: keep this if you want a white textbox */
+    background-color: #cfdfebd4; /* Floating box background color */
     color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    border-radius: 10px; /* Rounds the corners for a card effect */
 }
-
 
 .cv-content h3 {
     font-size: 1.8rem;
@@ -251,6 +268,8 @@ footer a:hover {
 }
 
 .cv-content p {
+    font-size: 1rem;
+    line-height: 1.6;
     margin: 8px 0;
 }
 
@@ -261,7 +280,7 @@ footer a:hover {
 }
 
 .cv-content a {
-    color: #1a73e8;
+    color: #1a73e8; /* Link color */
     text-decoration: none;
 }
 
@@ -269,20 +288,26 @@ footer a:hover {
     text-decoration: underline;
 }
 
+
+
 /* General Styles for Courses Page */
 .course-container {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center the entire section horizontally */
+    background-color: #f1edd9; /* Background color for the section */
+    padding: 40px 0; /* Adds padding above and below the section */
     margin-top: 20px;
-    background-color: #9bbdf8;
 }
 
 .course-list {
-    background-color: #9bbdf8; /* Same background color */
-    padding: 20px;
     width: 90%;
     max-width: 800px;
-    line-height: 1.6;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cfdfebd4; /* Floating box background color */
+    color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    border-radius: 10px; /* Rounds the corners for a card effect */
 }
 .course-list h2 {
     font-size: 2rem;
@@ -318,19 +343,22 @@ footer a:hover {
 /* Style for notes page */
 
 .notes-section {
-    background-color: #9bbdf8; /* Same color as the textbox */
-    padding: 20px 0; /* Add padding to create space around the section */
+    display: flex;
+    justify-content: center; /* Center the entire section horizontally */
+    background-color: #f1edd9; /* Background color for the section */
+    padding: 40px 0; /* Adds padding above and below the section */
     margin-top: 20px;
 }
 
 .notes-list {
-    width: 80%;
-    max-width: 350px;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #9bbdf8; /* Optional: keep this if you want a white textbox */
+    background-color: #cfdfebd4; /* Floating box background color */
     color: #333;
-    text-align: left; /* Center-align content inside the notes list */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    border-radius: 10px; /* Rounds the corners for a card effect */
 }
 
 .notes-list h2, .notes-list h3 {
