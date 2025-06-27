@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.16)  27 JUN 2025 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.16)  27 JUN 2025 17:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1149,7 +1149,7 @@ LaTeX Font Info:    Trying to load font information for U+esint on input line 11
  (c:/texlive/2025/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 124.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 126.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1160,7 +1160,7 @@ File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 [2] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20250627160429 1D3035405AF497C5C67EE92059CDF072)...executed.
+runsystem(latexminted cleantemp  --timestamp 20250627170348 1D3035405AF497C5C67EE92059CDF072)...executed.
 
 (./ian_CV.aux)
  ***********
@@ -1179,10 +1179,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  102i,5n,107p,554b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on ian_CV.pdf (2 pages, 148576 bytes).
+Output written on ian_CV.pdf (2 pages, 149292 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  16 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
