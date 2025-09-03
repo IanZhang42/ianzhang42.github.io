@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.21)  2 AUG 2025 21:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.21)  3 SEP 2025 17:38
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1176,12 +1176,12 @@ LaTeX Font Info:    Trying to load font information for U+esint on input line 10
 File: uesint.fd 
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 119.
+(Font)              <10> on input line 113.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 119.
+(Font)              <7> on input line 113.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 119.
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 124.
+(Font)              <5> on input line 113.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 118.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1190,7 +1190,9 @@ File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}]
 
-[2] 
+[2]
+
+[3] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./ian_CV.aux)
  ***********
@@ -1201,18 +1203,18 @@ Package rerunfilecheck Info: File `ian_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36421 strings out of 473579
- 745228 string characters out of 5728234
+ 36424 strings out of 473579
+ 745256 string characters out of 5728234
  1310457 words of memory out of 5000000
  58589 multiletter control sequences out of 15000+600000
  622697 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,5n,107p,521b,484s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on ian_CV.pdf (2 pages, 169054 bytes).
+Output written on ian_CV.pdf (3 pages, 171821 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
